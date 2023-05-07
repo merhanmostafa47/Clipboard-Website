@@ -2,6 +2,16 @@
 @tailwind components;
 @tailwind utilities;
 
+@layer base {
+  h3 {
+    @apply mb-7 text-3xl font-bold text-darkGrayishBlue md:text-4xl;
+  }
+
+  p {
+    @apply mx-auto max-w-3xl text-lg leading-9 text-grayishBlue;
+  }
+}
+
 body {
   background-image: url("../assets/images/bg-header-desktop.png");
   background-repeat: no-repeat;
@@ -12,4 +22,12 @@ body {
   body {
     background-image: url("../assets/images/bg-header-mobile.png");
   }
+}
+
+.section-container {
+  @apply mx-auto max-w-6xl text-center;
+}
+
+.buttons-container {
+  @apply flex w-full flex-col justify-center space-y-6 text-xl text-white md:flex-row md:space-x-4 md:space-y-0;
 }
