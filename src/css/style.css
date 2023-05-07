@@ -4,11 +4,11 @@
 
 @layer base {
   h3 {
-    @apply mb-7 text-3xl font-bold text-darkGrayishBlue md:text-4xl;
+    @apply mb-7 capitalize text-3xl font-bold text-darkGrayishBlue md:text-4xl;
   }
 
   p {
-    @apply mx-auto max-w-3xl text-base leading-9 text-grayishBlue md:text-lg;
+    @apply mx-auto mb-24 max-w-3xl text-base leading-9 text-grayishBlue md:text-lg;
   }
 }
 
